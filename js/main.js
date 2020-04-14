@@ -18,12 +18,12 @@ $(document).ready( function () {
         dropMenu.toggle();
     });
 
-    language.mouseenter(function () { 
-        $('.arrow-down').removeClass('active').next().addClass('active');  
+    language.mouseenter( function () { 
+        $('.arrow-down').removeClass('active').next('.arrow-up').addClass('active');  
     }); 
     
-    language.mouseleave(function () { 
-        $('.arrow-up').removeClass('active').prev().addClass('active');  
+    language.mouseleave( function () { 
+        $('.arrow-up').removeClass('active').prev('.arrow-down').addClass('active');  
     });    
 
 }); // End ready
