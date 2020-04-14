@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1070px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+
+/* UTILITIES */
+.disp-flex {
+    display: flex;
+}
+.align-it-center {
+    align-items: center;
+}
+
+.just-cont-flex-end {
+    justify-content: flex-end;
+}
+
+.margin-right-30 {
+    margin-right: 30px;
+}
+
+.margin-right-15 {
+    margin-right: 15px;
+}
+
+.margin-top-bot-30 {
+    margin: 30px 0;
+}
+
+.margin-bot-10 {
+    margin-bottom: 10px;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+
+/* MAIN MENU */
+.main-menu li {
+    list-style: none;
+}
+
+.main-menu li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #999;
+}
+
+/* .main-menu li a:focus, */
+.main-menu li a:hover {
+    color: #000;
+}
+
+/* Menu Logo */
+.menu-logo {
+    flex-basis: 40%;
+}
+
+.menu-logo img {
+    width: 100px;
+}
+
+/* Menu Options */
+.menu-options {
+    flex-basis: 60%;
+}
+
+.button {
+    color: white;
+    background: #f50590e0;
+    padding: 10px 20px;
+    border-radius: 18px;
+}
+
+.button:hover {
+    opacity: 0.6;
+}
+
+.menu-options i {
+    font-size: 7px;
+}
+
+.beta-options {
+    position: absolute;
+    top: -12px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #f50590e0;
+}
+
+/* Dropdown */
+.menu-options .dropdown-menu {
+    display: none;
+    position: absolute;
+    width: 230px;
+    /* top: 25px; */
+    left: -48px;
+    margin-top: 10px;
+    padding: 0px 15px;
+    line-height: 38px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #ccc;
+}
+
+/* Arrow languages */
+.arrow-down,
+.arrow-up {
+    display: none;
+}
+
+.active {
+    display: inline-block;
+}
+
+
